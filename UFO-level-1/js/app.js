@@ -31,7 +31,7 @@ var form = d3.select("#filters");
 button.on("click", runEnter);
 form.on("submit", runEnter);
 
-// Complete the event handler function for the form
+
 function runEnter() {
 
   d3.event.preventDefault();
